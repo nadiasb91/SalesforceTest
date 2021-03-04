@@ -86,7 +86,7 @@ public class SalesforceTest {
 
     @Then("a custom object is created")
     public void a_custom_object_is_created(){
-        page.untilPageLoadComplete(driver,16);
+       page.untilTitleIs("Coffee | Salesforce");
         Assert.assertEquals(driver.getTitle(),"Coffee | Salesforce");
     }
 
