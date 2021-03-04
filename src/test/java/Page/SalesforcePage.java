@@ -168,13 +168,13 @@ public class SalesforcePage {
         objectDataType.selectByVisibleText(dataType);
         autoNumberInput.sendKeys(objectName.substring(0,1)+"{0000}");
         startNumber.sendKeys("0");
-        checkTabForObject.click();
+        //checkTabForObject.click();
         saveButton.click();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        tabStyles.click();
-        driver.switchTo().activeElement();
-        styleCameraBlue.click();
-        goNext.click();
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //tabStyles.click();
+        //driver.switchTo().activeElement();
+        //styleCameraBlue.click();
+        //goNext.click();
     }
 
     public void clickSaveButton() {

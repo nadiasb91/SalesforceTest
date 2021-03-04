@@ -39,5 +39,10 @@
             <artifactId>cucumber-testng</artifactId>
             <version>6.9.0</version>
         </dependency>
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>5.5.2</version>
+        </dependency>
     </dependencies>
 </project>
